@@ -8,10 +8,13 @@ public class noofdigits {
 		while(a>0)
 		{
 			n=a%10;
+			System.out.print(n);
 			a=a/10;
 			b++;
+			
 		}
-		System.out.println(b);
+		System.out.println();
+		System.out.println(b +" no of digit");
 
 	}
 
